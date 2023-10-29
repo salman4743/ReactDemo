@@ -1,0 +1,48 @@
+/* Styles for a Bootstrap-like table */
+
+/* Table container styles */
+.table-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+  
+  /* Table styles */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+  }
+  
+  /* Table head styles */
+  .table thead th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: left;
+  }
+  
+  /* Table body styles */
+  .table tbody td, .table thead th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Table striped rows */
+  .table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Table hover effect */
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Responsive table */
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
